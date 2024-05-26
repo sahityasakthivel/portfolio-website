@@ -1,0 +1,121 @@
+.experiences{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 0px 150px; 
+ }
+ 
+ .experiences-title{
+     position: relative;
+ }
+ 
+ .experiences-title h1{
+     padding: 0px 30px;
+     font-size: 50px;
+     font-weight: 600;
+     text-align: center;
+ }
+ 
+ .experiences-title p{
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    /* border: solid; */
+}
+
+ .experiences-title img{
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     z-index: -1;
+ }
+ 
+ .experiences-format{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 20px;
+     padding: 10px;
+     border-radius: 10px;
+     border: 2px solid white;
+     transition: 0.4s;
+     cursor: pointer;
+ }
+ 
+ .experiences-container{
+     display: grid;
+     grid-template-columns: repeat(3, minmax(0, 1fr));
+     gap: 30px;
+     margin-bottom: 80px;
+    text-align: center;
+    
+     
+     
+ }
+ 
+ .experiences-format h3{
+     font-size: 24px;
+     font-weight: 600;
+ }
+ 
+ .experiences-format h2{
+     font-size: 36px;
+     font-weight: 800;
+     background: rgb(255, 255, 255);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+ 
+ .experiences-format p{
+     color: rgb(255, 255, 255);
+     font-size: 22px;
+     line-height: 40px;
+     max-width: 100%;
+ }
+ 
+ .experiences-format img{
+     max-width: 250px;
+     max-height: 150px;
+     border: darkblue;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+     
+ }
+ .experiences-readmore{
+     display: flex;
+     gap: 20px;
+     align-items: center;
+     margin-top: 20px;
+ }
+ 
+ 
+ 
+ .experiences-details{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    
+ }
+
+ .experiences-details img {
+    max-width: 250px;
+     max-height: 150px;
+    align-items: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    padding: 10px;
+    
+ }
+
+ .experiences-details li {
+    padding: 10px;
+    font-size: 22px;
+ }
+ 
