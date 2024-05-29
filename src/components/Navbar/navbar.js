@@ -1,22 +1,30 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './navbar.css'
+import { NavLink } from 'react-router-dom'
 
 
-const navbar = () => {
+const Navbar = () => {
+  const [menu, setMenu] = useState('home')
   return (
     <div className='navbar'>
 
         <ul className='nav-menu'>
-            <li>Home</li>
-            <li>About Me</li>
-            <li>Services</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
+            <li>
+              <NavLink to ="/">Home</NavLink>
+            </li>
+            <li>
+              <NavLink to ="/experience">Experiences</NavLink>
+            </li>
+            <li>
+              <NavLink to ="/project">Projects</NavLink>
+            </li>
+            <li>
+              <NavLink to ="/contact">Contact Me</NavLink>
+            </li>
         </ul>
-        <div className='nav-connect'> Connect with me</div>
     </div>
 
   )
 }
 
-export default navbar
+export default Navbar

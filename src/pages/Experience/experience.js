@@ -27,11 +27,11 @@ function Experience(){
                     {experience.s_id}
                     
                     <div>
-                        <Link to={`/experience/${experience.s_no}`}>
+                        {/* <Link to={`/experience/${experience.s_no}`}>
                         <div className='experiences-readmore'>
                         <img src={arrow_icon} alt=''/> 
-                    </div></Link>
-                    <button onClick={()=> {setSelectedData(experience); setButtonPopup(true)}}> View More </button>
+                    </div></Link> */}
+                    <button  onClick={()=> {setSelectedData(experience); setButtonPopup(true)}}> View More </button>
                     {/* {seletcedData.s_name} */}
                     {buttonPopup && <Popup experience={seletcedData} onClose={setButtonPopup}>
                     

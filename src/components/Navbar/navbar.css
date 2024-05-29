@@ -2,8 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    margin: 20px 170px;
-    
+    padding: 20px;
+    text-align: center;
+    /* margin: 20px 170px; */
+    background-color:  rgb(159, 118, 164);
+    padding: 30px;
 }
 
 .nav-menu{
@@ -11,8 +14,14 @@
     align-items: center;
     list-style: none;
     gap: 60px;
-    font-size: 20px;
+    font-size: 23px;
+    /* border: solid; */
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 8em */
 }
+
+
 .nav-connect{
     padding: 20px 40px;
     border-radius: 50px;
@@ -23,4 +32,23 @@
 }
 .nav-connect:hover{
     transform: scale(1.05);
+} 
+
+.test{
+    border: solid;
 }
+
+.active{
+    font-weight: 950;
+    /* font-size: large; */
+    /* background-color: #DA7C25; */
+    /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); */
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  a:hover {
+     color: black;
+  }

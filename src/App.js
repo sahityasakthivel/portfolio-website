@@ -6,6 +6,7 @@ import {Route, Routes, BrowserRouter} from "react-router-dom";
 import Experience from './pages/Experience/experience';
 import ExperiencesComponent from "./components/ExperiencesComponent"
 import Navbar from './components/Navbar/navbar';
+import Project from './pages/Project/project'
 function App() {
   return (
     <BrowserRouter>
@@ -15,6 +16,7 @@ function App() {
         <Route path="/about" element={<About />}/>
         <Route path="/experience" element={<Experience />}/>
         <Route path="/experience/:id" element={< ExperiencesComponent />}/>
+        <Route path="/project" element={<Project />}/>
       </Routes>
     </BrowserRouter>
   );

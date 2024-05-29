@@ -5,13 +5,15 @@ function Popup({children, onClose, experience}) {
     <div className='popup'>
         <div className='popup-inner'>
           <h2>{experience.s_name}</h2>
-          <p>{experience.s_role}</p>
-          <p>{experience.s_time}</p>
-          <p>{experience.s_desc}</p>
+          <p className='role'>{experience.s_role}</p>
+          <p className='time'>{experience.s_time}</p>
+          <p className='desc'>{experience.s_desc}</p>
 
-          {experience.s_readmore.map(val => (  
+          <div className='bullet-points'>{experience.s_readmore.map(val => (  
                 <li>  {val}</li>
+
         ))} 
+        </div>
             <button className='close-btn' onClick={() => onClose(false)}>CLOSE</button>
             {children}
         </div>
