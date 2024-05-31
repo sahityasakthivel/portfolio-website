@@ -3,23 +3,24 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 80px;
+    gap: 40px;
     margin: 0px 150px; 
  }
  
  .experiences-title{
+    padding: 20px ;
      position: relative;
  }
  
  .experiences-title h1{
-     padding: 0px 30px;
+     padding: 0px 10px;
      font-size: 50px;
      font-weight: 600;
      text-align: center;
  }
  
  .experiences-title p{
-    padding: 10px 30px;
+    padding: 10px 10px;
     font-size: 20px;
     font-weight: 600;
     /* border: solid; */

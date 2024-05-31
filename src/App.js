@@ -7,6 +7,7 @@ import Experience from './pages/Experience/experience';
 import ExperiencesComponent from "./components/ExperiencesComponent"
 import Navbar from './components/Navbar/navbar';
 import Project from './pages/Project/project'
+import Footer from './components/Footer/footer';
 function App() {
   return (
     <BrowserRouter>
@@ -18,6 +19,7 @@ function App() {
         <Route path="/experience/:id" element={< ExperiencesComponent />}/>
         <Route path="/project" element={<Project />}/>
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }
