@@ -12,10 +12,10 @@ const Footer = () => {
   return (
     <footer className='footer'>
 
-    
-        <a href = {cv} target= "_blank"><i class="fa-regular fa-file" href="./CV.pdf" ></i>  <FontAwesomeIcon icon={faFile} size='3x' /></a>
-        <a href = "https://github.com/sahityasakthivel?tab=repositories" target= "_blank"><i class="fa-regular fa-file" href="./CV.pdf" ></i>  <FontAwesomeIcon icon={faGithub} size='3x'/></a>
-        <a href = "https://www.linkedin.com/in/sahitya-sakthivel-08299a213/" target= "_blank"><i class="fa-regular fa-file" href="./CV.pdf" ></i>  <FontAwesomeIcon icon={faLinkedin} size='3x'/></a>
+        <div ><a href = {cv} target= "_blank"><i class="fa-regular fa-file" href="./CV.pdf" ></i>  <FontAwesomeIcon icon={faFile} size='3x' /></a></div>
+        <div> <a href = "https://github.com/sahityasakthivel?tab=repositories" target= "_blank"><i class="fa-regular fa-file" href="./CV.pdf" ></i>  <FontAwesomeIcon icon={faGithub} size='3x'/></a></div>
+        <div> <a href = "https://www.linkedin.com/in/sahitya-sakthivel-08299a213/" target= "_blank"><i class="fa-regular fa-file" href="./CV.pdf" ></i>  <FontAwesomeIcon icon={faLinkedin} size='3x'/></a></div>
+        
     </footer>
   );
 }

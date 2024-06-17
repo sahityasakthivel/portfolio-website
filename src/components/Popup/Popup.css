@@ -74,3 +74,61 @@
     padding: 10px;
     border: saddlebrown;
 }
+
+.awards{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border: solid;
+    
+}
+
+.awards-title{
+    padding: 0px 6px;
+    font-weight: 3000;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.awards-name{
+    padding: 6px;
+    font-weight: 3000;
+    font-size: 20px;
+    
+}
+
+.awards-desc{
+    padding: 6px;
+    font-size: large;
+    font-weight: 500;
+}
+
+
+.education{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border: solid;
+    
+}
+
+.education-title{
+    padding: 0px 6px;
+    font-weight: 3000;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.education-name{
+    padding: 6px;
+    font-weight: 3000;
+    font-size: 20px;
+    
+}
+
+.education-modules{
+    padding: 6px;
+    font-size: large;
+    font-weight: 500;
+    
+}

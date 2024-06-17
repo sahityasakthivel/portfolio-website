@@ -8,6 +8,7 @@ import ExperiencesComponent from "./components/ExperiencesComponent"
 import Navbar from './components/Navbar/navbar';
 import Project from './pages/Project/project'
 import Footer from './components/Footer/footer';
+import Education from './pages/Education/education';
 function App() {
   return (
     <BrowserRouter>
@@ -18,6 +19,7 @@ function App() {
         <Route path="/experience" element={<Experience />}/>
         <Route path="/experience/:id" element={< ExperiencesComponent />}/>
         <Route path="/project" element={<Project />}/>
+        <Route path="/education" element={<Education />}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
