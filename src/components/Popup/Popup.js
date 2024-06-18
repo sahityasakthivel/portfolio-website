@@ -36,11 +36,13 @@ function Popup({children, onClose, experience}) {
   return ( 
     <div className='popup'>
         <div className='popup-inner'>
-          <h2>{experience.s_name}</h2>
-          <p className='role'>{experience.s_role}</p>
-          <p className='time'>{experience.s_time}</p>
-          <p className='desc'>{experience.s_desc}</p>
-
+          <div className='popup-heading'>
+            <h2>{experience.s_name}</h2>
+            <p className='role'>{experience.s_role}</p>
+            {experience.s_time? <p className='time'>{experience.s_time}</p>: <p></p>}
+            {experience.s_lang? <p className='time'>{experience.s_lang}</p>: <p></p>}
+            <p className='desc'>{experience.s_desc}</p>
+          </div>
           <div >{experience.s_awards ? <div className='awards'> <div className='awards-title'>Awards</div> {experience.s_awards.map(([name, desc]) => (  
                 <div> <div className='awards-name'>{name} :</div> <div className='awards-desc'>{desc}</div></div>
 

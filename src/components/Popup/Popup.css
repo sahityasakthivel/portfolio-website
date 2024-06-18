@@ -11,6 +11,10 @@
     
 }
 
+.popup-heading{
+    border: solid;
+}
+
 
 .popup-inner{
     position: relative;
@@ -44,7 +48,7 @@
 .bullet-points{
     padding: 30px 0px;
     list-style-type: '- '; 
-    border: solid;
+    /* border: solid; */
     min-height: 65%;
     width: auto;
     height: auto;
@@ -108,7 +112,7 @@
     padding: 10px;
     font-weight: bold;
     font-size: 20px;
-    border: solid;
+    
     
 }
 
