@@ -14,7 +14,7 @@ function Education(){
         <div className='educations'>
             <div className='educations-title'>
                 <h1> My Education</h1>
-                <p> Press the arrow to learn more about my educations!</p>
+                <p> Press view more to learn more about my educations!</p>
             </div>
             <div className='educations-container'>
             {Educations_Data.map((education, index)=>{

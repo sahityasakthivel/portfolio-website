@@ -14,7 +14,7 @@ function Project(){
         <div className='projects'>
             <div className='projects-title'>
                 <h1> My Projects</h1>
-                <p> Press the arrow to learn more about my projects!</p>
+                <p> Press view more to learn more about my projects!</p>
             </div>
             <div className='projects-container'>
             {Projects_Data.map((project, index)=>{

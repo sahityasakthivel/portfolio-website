@@ -14,7 +14,7 @@ function Experience(){
         <div className='experiences'>
             <div className='experiences-title'>
                 <h1> My Experiences</h1>
-                <p> Press the arrow to learn more about my experiences!</p>
+                <p> Press view more to learn more about my experiences!</p>
             </div>
             <div className='experiences-container'>
             {Experiences_Data.map((experience, index)=>{
