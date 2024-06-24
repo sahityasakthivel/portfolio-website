@@ -53,7 +53,7 @@ const Experiences_Data = [
         s_time:"Sep 2022 - Jun 2023",
         s_desc:"Head of social media for the AI society in King's College London.",
         s_img: s6, 
-        s_readmore: ["Promote society's eventts on various differentt social media platform.", "Manage and answer any queries related to the society.", "Contact various speakers to organise talks for the society."],
+        s_readmore: ["Promote society's eventts on various different social media platform.", "Manage and answer any queries related to the society.", "Contact various speakers to organise talks for the society."],
   
     },
 
